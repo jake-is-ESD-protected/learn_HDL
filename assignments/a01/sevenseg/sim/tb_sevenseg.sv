@@ -13,15 +13,18 @@ module tb_sevenseg
     // no I/O because this is a testbench
 );
 
+// create virtual I/O
 logic [3:0] bin;
 logic [6:0] hex;
 logic [6:0] hexn;
 
+//match all names because they share names
 sevenseg dut
 (
     .*
 );
 
+//start testbench
 initial begin
     
     $display("***********************");

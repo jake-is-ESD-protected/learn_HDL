@@ -4,6 +4,7 @@
 # brief:              script for sevenseg implementation
 # version:            V1.0
 
+# just write this all the time
 vlib work
 vmap work work  
 
@@ -18,7 +19,7 @@ vsim tb_sevenseg
 
 # log all data
 log -r *
-# do wave_tb_sevenseg.tcl
+do wave_tb_sevenseg.tcl
 
 # run simulation
 run -all

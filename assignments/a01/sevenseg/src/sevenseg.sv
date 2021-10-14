@@ -20,7 +20,7 @@ module sevenseg
     output logic [6:0] hexn
 );
 
-// LUT
+// LUT for simple 1:1 translation of values
 always_comb begin : description_sevenseg
 
     case (bin)
