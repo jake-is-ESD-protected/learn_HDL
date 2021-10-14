@@ -13,11 +13,40 @@ module tb_sevenseg
     // no I/O because this is a testbench
 );
 
-logic [3:0] bBus;
-logic [6:0] hexBus;
-logic [6:0] nhexBus;
+logic [3:0] bin;
+logic [6:0] hex;
+logic [6:0] hexn;
 
 sevenseg dut
 (
-    .
-)
+    .*
+);
+
+initial begin
+    
+    $display("***********************");
+    $display("Benching sevenseg...");
+    $display("***********************");
+
+    // start value for inputs
+    bin = 0;
+
+    #100ns;
+    
+    // to stimulate all 16 possible digits, an integer is counted up 16 times
+    for(int i = 0; i < 16; i+=1) begin
+        
+        bin = i;
+
+        $display("%d --> %x != %x", bin, hex, hexn);
+        #100ns;
+
+    end
+
+    $display("***********************");
+    $display("sevenseg benching end.");
+    $display("***********************");
+
+end
+
+endmodule

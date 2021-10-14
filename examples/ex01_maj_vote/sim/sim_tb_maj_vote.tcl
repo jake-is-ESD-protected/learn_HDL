@@ -1,3 +1,9 @@
+# project name:       tb_maj_vote
+# auth:               Jakob Tschavoll
+# date:               09.10.21
+# brief:              script for maj_vote implementation
+# version:            V1.1
+
 # always write these
 vlib work
 vmap work work  
