@@ -13,6 +13,7 @@ vsim tb_maj_vote
 
 # log all data
 log -r *
+do wave_tb_maj_vote.tcl
 
 # run simulation
 run -all

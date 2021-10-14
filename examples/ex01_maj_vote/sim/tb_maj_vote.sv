@@ -24,7 +24,7 @@ module tb_maj_vote
 logic x2;
 logic x1;
 logic x0;
-logic y;
+//logic y;
 logic ycase;
 
 // (2)
@@ -34,16 +34,21 @@ maj_vote dut
     .x0     (x0),
     .x1     (x1),
     .x2     (x2),
-    .y      (y),
-    .ycase  (ycase),
+    //.y      (y),
+    .ycase  (ycase)
 );
 // use maj_vote dut(.*); to match all equal names, e.g. ".x0 -> (x0)"
 
 // (3)
 initial begin // start at time = 0 and run line by line 
-    x2 = 1'bx;
-    x1 = 1'bx;
-    x0 = 1'bx;
+    
+    $display("***********************");
+    $display("Benching maj_vote...");
+    $display("***********************");
+
+    x2 = 1'b0;
+    x1 = 1'b0;
+    x0 = 1'b0;
     // only inputs can be stimulated
 
     #100ns; // advance in time
@@ -51,6 +56,22 @@ initial begin // start at time = 0 and run line by line
     x2 = 1'b1;
     x1 = 1'b1;
     x0 = 1'b0;
+
+    #100ns;
+    
+    for(int i = 0; i < 8; i+=1) begin
+        
+        x0 = i[0]; // i is an integer and this way the single bits can be accessed
+        x1 = i[1];
+        x2 = i[2];
+        $display("%d | %d | %d --> %d", x2, x1, x0, ycase);
+        #100ns;
+
+    end
+
+    $display("***********************");
+    $display("maj_vote benching end.");
+    $display("***********************");
 
 end
     
