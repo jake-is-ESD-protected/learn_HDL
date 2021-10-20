@@ -40,9 +40,9 @@ initial begin
     for(int i = 0; i < 16; i+=1) begin
         
         bin = i;
-
-        $display("%d --> %x != %x", bin, hex, hexn);
         #100ns;
+        $display("%d --> %x != %x", bin, hex, hexn);
+        
 
     end
 

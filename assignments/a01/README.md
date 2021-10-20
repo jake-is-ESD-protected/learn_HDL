@@ -35,21 +35,21 @@ It has to be stated that these waveforms do not visually tell much about the 7SD
 # Benching sevenseg...
 # ***********************
 #  0 --> 3f != 40
-#  1 --> 3f != 40
-#  2 --> 06 != 79
-#  3 --> 5b != 24
-#  4 --> 4f != 30
-#  5 --> 66 != 19
-#  6 --> 6d != 12
-#  7 --> 7d != 02
-#  8 --> 07 != 78
-#  9 --> 7f != 00
-# 10 --> 6f != 10
-# 11 --> 77 != 08
-# 12 --> 7c != 03
-# 13 --> 39 != 46
-# 14 --> 5e != 21
-# 15 --> 79 != 06
+#  1 --> 06 != 79
+#  2 --> 5b != 24
+#  3 --> 4f != 30
+#  4 --> 66 != 19
+#  5 --> 6d != 12
+#  6 --> 7d != 02
+#  7 --> 07 != 78
+#  8 --> 7f != 00
+#  9 --> 6f != 10
+# 10 --> 77 != 08
+# 11 --> 7c != 03
+# 12 --> 39 != 46
+# 13 --> 5e != 21
+# 14 --> 79 != 06
+# 15 --> 71 != 0e
 # ***********************
 # sevenseg benching end.
 # ***********************
@@ -59,15 +59,4 @@ It has to be stated that these waveforms do not visually tell much about the 7SD
 
 ![image](sevenseg/sim/screenshots/waveforms.png)
 
-The waveforms correspond to the desired output and negated output with the segment 0 (on top of the digit) being the LSB and the center segment the MSB. However, the console statement seems to be offset by one iteration. The second hex value should not be ``3f`` but ``06``. It is unclear how this piece of code can produce this offset:
-
-```v
-for(int i = 0; i < 16; i+=1) begin
-        
-    bin = i;
-
-    $display("%d --> %x != %x", bin, hex, hexn);
-    #100ns;
-
-    end
-```
+The waveforms correspond to the desired output and negated output with the segment 0 (on top of the digit) being the LSB and the center segment the MSB. 

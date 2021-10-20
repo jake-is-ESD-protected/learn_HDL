@@ -11,49 +11,49 @@ cModel Technology
 dC:/Users/jakob/Desktop/local_verilog/learn_HDL/assignments/a01/sevenseg/sim
 vsevenseg
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1634241538
+!s110 1634755161
 !i10b 1
 !s100 _2W[[moCM8egV4ZhD`M[^3
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 Ik8f51K?A`UnZbd_OAZjF:0
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z4 dC:/Users/Jakob Work/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a01/sevenseg/sim
-w1634237051
+Z3 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a01/sevenseg/sim
+w1634242035
 8../src/sevenseg.sv
 F../src/sevenseg.sv
-!i122 57
+!i122 65
 L0 16 80
-Z5 OV;L;2020.1;71
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1634241538.000000
+!s108 1634755160.000000
 !s107 ../src/sevenseg.sv|
 !s90 -reportprogress|300|../src/sevenseg.sv|
 !i113 1
-Z7 tCvgOpt 0
+Z5 tCvgOpt 0
 vtb_sevenseg
 R0
-R1
+!s110 1634755162
 !i10b 1
-!s100 ;:XCd[C<0>0@RW=W71fd?0
+!s100 ?2DbBhM9[=]?D?f4>;FV[2
+R1
+IV@0m>X8UGzWhA@RD[2@PH1
 R2
-I6N<d2>9mVT5dnk@oik:kz3
-R3
 S1
-R4
-w1634241534
+R3
+w1634755150
 8tb_sevenseg.sv
 Ftb_sevenseg.sv
-!i122 58
+!i122 66
 L0 11 45
-R5
+R4
 r1
 !s85 0
 31
-R6
+!s108 1634755161.000000
 !s107 tb_sevenseg.sv|
 !s90 -reportprogress|300|tb_sevenseg.sv|
 !i113 1
-R7
+R5
