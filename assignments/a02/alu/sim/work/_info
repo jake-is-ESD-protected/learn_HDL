@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a02/alu/sim
+valu
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1634910615
+!i10b 1
+!s100 z5<TTVHlzg>lEC6XU@cC?3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihn[O2eab:g9e[F3<4ATnk0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1634908000
+8../src/alu.sv
+F../src/alu.sv
+!i122 17
+L0 15 81
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1634910615.000000
+!s107 ../src/alu.sv|
+!s90 -reportprogress|300|../src/alu.sv|
+!i113 1
+Z7 tCvgOpt 0
+vtb_alu
+R1
+R2
+!i10b 1
+!s100 O0DOFNPdCz_8]S@DH@OAH2
+R3
+IP<Mj2g2i<YI=WV87V[]_l1
+R4
+S1
+R0
+w1634910611
+8tb_alu.sv
+Ftb_alu.sv
+!i122 18
+L0 11 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 tb_alu.sv|
+!s90 -reportprogress|300|tb_alu.sv|
+!i113 1
+R7
