@@ -19,7 +19,7 @@ vsim tb_alu
 
 # log all data
 log -r *
-# do wave_tb_sevenseg.tcl
+do wave.do
 
 # run simulation
 run -all

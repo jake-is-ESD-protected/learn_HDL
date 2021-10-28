@@ -11,48 +11,48 @@ cModel Technology
 Z0 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a02/alu/sim
 valu
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1635417780
+!s110 1635180840
 !i10b 1
-!s100 Z6bik88;SZ>[7TKJTed>d1
+!s100 4;WR3<9ASboX7g@iSN7]J0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IG0?nd@Seg?BWN_OTNXe1W3
+I=8gnlIWF`4cSdQj`fe]ai1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1635412460
+w1635178821
 8../src/alu.sv
 F../src/alu.sv
-!i122 92
-L0 15 72
+!i122 39
+L0 15 70
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1635417779.000000
+!s108 1635180839.000000
 !s107 ../src/alu.sv|
 !s90 -reportprogress|300|../src/alu.sv|
 !i113 1
 Z5 tCvgOpt 0
 vtb_alu
 R1
-!s110 1635417781
+!s110 1635180841
 !i10b 1
-!s100 gRISC[hPOHJgG`6c21F@V2
+!s100 NE`3ZiVdk_e6Hg7L;BAN?0
 R2
-IDW4MLQ`>b`o@X=5L^D5JB1
+I^4JFf;RL>kZIN7`kUDUzV0
 R3
 S1
 R0
-w1635414663
+w1635180835
 8tb_alu.sv
 Ftb_alu.sv
-!i122 93
-L0 11 337
+!i122 40
+L0 11 181
 R4
 r1
 !s85 0
 31
-!s108 1635417780.000000
+!s108 1635180840.000000
 !s107 tb_alu.sv|
 !s90 -reportprogress|300|tb_alu.sv|
 !i113 1
