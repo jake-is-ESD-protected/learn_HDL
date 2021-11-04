@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a03/seq/sim
+vdreg
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1636021185
+!i10b 1
+!s100 H[4;:>`STkJ9XgD3QhfFN3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<[FQLg`3XFJ4jLSg5P4g:3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1636017750
+8../src/dreg.sv
+F../src/dreg.sv
+!i122 35
+L0 11 31
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1636021185.000000
+!s107 ../src/dreg.sv|
+!s90 -reportprogress|300|../src/dreg.sv|
+!i113 1
+Z7 tCvgOpt 0
+vtb_dreg
+R1
+R2
+!i10b 1
+!s100 zPXz@kPjdIdom=6GJHDoB2
+R3
+IY4m3eeLEZalh1kn]`1aE`0
+R4
+S1
+R0
+w1636019552
+8tb_dreg.sv
+Ftb_dreg.sv
+!i122 36
+L0 11 89
+R5
+r1
+!s85 0
+31
+R6
+!s107 tb_dreg.sv|
+!s90 -reportprogress|300|tb_dreg.sv|
+!i113 1
+R7

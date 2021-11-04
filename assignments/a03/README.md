@@ -7,21 +7,21 @@
 
 >*"quote"*
 
-## About [dreg](/src/dreg.sv):
+## About [dreg](/seq/src/dreg.sv):
 
-## About [pcount](/src/pcount.sv):
+## About [pcount](/seq/src/pcount.sv):
 
-## About [tb_dreg](/sim/tb_dreg.sv):
+## About [tb_dreg](/seq/sim/tb_dreg.sv):
 
-## About [tb_pcount](/sim/tb_pcount.sv):
+## About [tb_pcount](/seq/sim/tb_pcount.sv):
 
-## About [tb_ram16k_verilog](/sim/tb_ram16k_verilog.sv):
+## About [tb_ram16k_verilog](/seq/sim/tb_ram16k_verilog.sv):
 
-## About [sim_tb_dreg](/sim/sim_tb_dreg.tcl):
+## About [sim_tb_dreg](/seq/sim/sim_tb_dreg.tcl):
 
 Standard .tcl-script for a simple model-sim. 
 
-## About [sim_tb_pcount](/sim/sim_tb_pcount.tcl):
+## About [sim_tb_pcount](/seq/sim/sim_tb_pcount.tcl):
 
 Standard .tcl-script for a simple model-sim. 
 
