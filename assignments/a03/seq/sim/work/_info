@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a03/seq/sim
 vdreg
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1636021185
+Z2 !s110 1636037114
 !i10b 1
 !s100 H[4;:>`STkJ9XgD3QhfFN3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,23 +19,23 @@ I<[FQLg`3XFJ4jLSg5P4g:3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1636017750
+w1636026748
 8../src/dreg.sv
 F../src/dreg.sv
-!i122 35
+!i122 102
 L0 11 31
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1636021185.000000
+!s108 1636037113.000000
 !s107 ../src/dreg.sv|
 !s90 -reportprogress|300|../src/dreg.sv|
 !i113 1
-Z7 tCvgOpt 0
+Z6 tCvgOpt 0
 vpcount
 R1
-Z8 !s110 1636029020
+Z7 !s110 1636037221
 !i10b 1
 !s100 =aI1GjVE21cb3?9_GOFAU1
 R3
@@ -46,20 +46,20 @@ R0
 w1636027461
 8../src/pcount.sv
 F../src/pcount.sv
-!i122 71
+!i122 104
 L0 11 36
 R5
 r1
 !s85 0
 31
-!s108 1636029019.000000
+Z8 !s108 1636037221.000000
 !s107 ../src/pcount.sv|
 !s90 -reportprogress|300|../src/pcount.sv|
 !i113 1
-R7
+R6
 vram16k_verilog
 R1
-Z9 !s110 1636035412
+!s110 1636037302
 !i10b 1
 !s100 AgHlgGjC1Ja^48:83OLLA1
 R3
@@ -70,44 +70,44 @@ R0
 w1635976310
 8../src/ram16k_verilog.sv
 F../src/ram16k_verilog.sv
-!i122 100
+!i122 106
 L0 9 26
 R5
 r1
 !s85 0
 31
-!s108 1636035411.000000
+!s108 1636037302.000000
 !s107 ../src/ram16k_verilog.sv|
 !s90 -reportprogress|300|../src/ram16k_verilog.sv|
 !i113 1
-R7
+R6
 vtb_dreg
 R1
 R2
 !i10b 1
-!s100 zPXz@kPjdIdom=6GJHDoB2
+!s100 h;k<QGIJe6_KoKPoBWlXG2
 R3
-IY4m3eeLEZalh1kn]`1aE`0
+I]W01`>YY99^]6OEWfU98i3
 R4
 S1
 R0
-w1636019552
+w1636028489
 8tb_dreg.sv
 Ftb_dreg.sv
-!i122 36
+!i122 103
 L0 11 89
 R5
 r1
 !s85 0
 31
-R6
+!s108 1636037114.000000
 !s107 tb_dreg.sv|
 !s90 -reportprogress|300|tb_dreg.sv|
 !i113 1
-R7
+R6
 vtb_pcount
 R1
-R8
+R7
 !i10b 1
 !s100 4=D[]TI@PIB[I`Zo^kPlG0
 R3
@@ -115,23 +115,23 @@ IdcHM?GEK:MR19E8I[5D4S1
 R4
 S1
 R0
-w1636028540
+w1636029056
 8tb_pcount.sv
 Ftb_pcount.sv
-!i122 72
+!i122 105
 L0 11 77
 R5
 r1
 !s85 0
 31
-!s108 1636029020.000000
+R8
 !s107 tb_pcount.sv|
 !s90 -reportprogress|300|tb_pcount.sv|
 !i113 1
-R7
+R6
 vtb_ram16k_verilog
 R1
-R9
+!s110 1636037303
 !i10b 1
 !s100 9:g]Lj:Xb]nhj9QZ;cmI00
 R3
@@ -142,14 +142,14 @@ R0
 w1636035376
 8tb_ram16k_verilog.sv
 Ftb_ram16k_verilog.sv
-!i122 101
+!i122 107
 L0 11 75
 R5
 r1
 !s85 0
 31
-!s108 1636035412.000000
+!s108 1636037303.000000
 !s107 tb_ram16k_verilog.sv|
 !s90 -reportprogress|300|tb_ram16k_verilog.sv|
 !i113 1
-R7
+R6
