@@ -32,7 +32,7 @@ always_ff @( negedge rst_n or posedge clk50m ) begin
         q_new <= d;      // load: store input in helper-var
     end
     else begin
-        q_new <= q;      // any other case: 
+        q_new <= q;      // any other case: state is kept
     end
 
     q <= q_new;

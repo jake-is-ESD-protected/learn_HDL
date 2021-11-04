@@ -33,6 +33,30 @@ Z6 !s108 1636021185.000000
 !s90 -reportprogress|300|../src/dreg.sv|
 !i113 1
 Z7 tCvgOpt 0
+vpcount
+R1
+Z8 !s110 1636029020
+!i10b 1
+!s100 =aI1GjVE21cb3?9_GOFAU1
+R3
+IGhWlbz5T1=h[XgB_gU6h[3
+R4
+S1
+R0
+w1636027461
+8../src/pcount.sv
+F../src/pcount.sv
+!i122 71
+L0 11 36
+R5
+r1
+!s85 0
+31
+!s108 1636029019.000000
+!s107 ../src/pcount.sv|
+!s90 -reportprogress|300|../src/pcount.sv|
+!i113 1
+R7
 vtb_dreg
 R1
 R2
@@ -55,5 +79,29 @@ r1
 R6
 !s107 tb_dreg.sv|
 !s90 -reportprogress|300|tb_dreg.sv|
+!i113 1
+R7
+vtb_pcount
+R1
+R8
+!i10b 1
+!s100 4=D[]TI@PIB[I`Zo^kPlG0
+R3
+IdcHM?GEK:MR19E8I[5D4S1
+R4
+S1
+R0
+w1636028540
+8tb_pcount.sv
+Ftb_pcount.sv
+!i122 72
+L0 11 77
+R5
+r1
+!s85 0
+31
+!s108 1636029020.000000
+!s107 tb_pcount.sv|
+!s90 -reportprogress|300|tb_pcount.sv|
 !i113 1
 R7

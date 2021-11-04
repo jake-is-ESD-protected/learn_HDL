@@ -19,7 +19,7 @@ vsim tb_pcount
 
 # log all data
 log -r *
-do wave.do
+do wave_pcount.do
 
 # run simulation
 run -all

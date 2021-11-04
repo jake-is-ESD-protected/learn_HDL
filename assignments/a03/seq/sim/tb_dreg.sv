@@ -33,7 +33,7 @@ end
 
 initial begin
 
-    $display("Starting D-FF\n");
+    $display("\n#################\nStarting D-FF\n#################\n");
     rst_n = 1'b1;
     load = 1'b1;
 
@@ -91,7 +91,7 @@ initial begin
         $display("Total error-count: %d\n", error_cnt);
     end
     else begin
-        $display("Self check clean, leaving...");
+        $display("\nSelf check clean, leaving...");
     end
     run_sim = 1'b0;
 end
