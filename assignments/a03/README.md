@@ -58,11 +58,11 @@ Standard .tcl-script for a simple model-sim.
 #################
 # 
 # increment test:
-# cnt =    20
+# cnt =    41
 # manual reset:
 # cnt =     0
 # load preload 20
-# cnt =    40
+# cnt =    60
 # 
 # Self check clean, leaving...
 
