@@ -4,7 +4,7 @@ project name:       ram16k_verilog
 auth:               Jakob Tschavoll
 date:               03.11.21
 brief:              system verilog testbench for RAM
-version:            V1.0
+version:            V1.1
 *****************************************************************************************
 */
 
@@ -38,10 +38,12 @@ initial begin
     wren = 1'b1;
 
     for(address = 14'b0; address < ((1 << 14)-1); address += 1) begin
+        @(negedge clock);
         data = 16'd0;
-        #80ns;
+        @(negedge clock);
+
         //$display("q = %d", q);
-        assert (q == 16'd0000) 
+        assert (q == 16'd0000)
         else begin
             $display("Value not stored correctly. q = %d", q);
             error_cnt += error_cnt;
@@ -51,8 +53,10 @@ initial begin
     $display("Set all data to 1 (bitwise)");
 
     for(address = 14'b0; address < ((1 << 14)-1); address += 1) begin
+        @(negedge clock);
         data = 16'hffff;
-        #80ns;
+        @(negedge clock);
+
         //$display("q = %d", q);
         assert (q == 16'hffff) 
         else begin
@@ -64,8 +68,10 @@ initial begin
     $display("Set all data to the value of their adress");
 
     for(address = 14'b0; address < ((1 << 14)-1); address += 1) begin
+        @(negedge clock);
         data = address;
-        #80ns;
+        @(negedge clock);
+
         //$display("q = %d", address);
         assert (q == address) 
         else begin

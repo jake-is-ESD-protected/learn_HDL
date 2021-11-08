@@ -26,16 +26,14 @@ logic [W-1:0] q_new;
 always_ff @( negedge rst_n or posedge clk50m ) begin
 
     if(!rst_n) begin
-        q_new <= 16'd0;  // reset: set value to 0
+        q <= '0;        // reset: set value to 0
     end
     else if(load) begin
-        q_new <= d;      // load: store input in helper-var
+        q <= d;         // load: store input in helper-var
     end
     else begin
-        q_new <= q;      // any other case: state is kept
+        q <= q;         // any other case: state is kept
     end
-
-    q <= q_new;
 end
 
 endmodule

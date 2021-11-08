@@ -27,20 +27,17 @@ logic [W-1:0] cnt_new;
 always_ff @( negedge rst_n or posedge clk50m ) begin
 
     if(!rst_n) begin
-        cnt_new <= 1'b0;    // reset: set value to 0
+        cnt <= 1'b0;        // reset: set value to 0
     end
     else if(load) begin
-        cnt_new <= cnt_in;  // load: store input in helper-var
+        cnt <= cnt_in;      // load: store input in helper-var
     end
     else if(inc) begin
-        cnt_new <= (cnt + 1); // inc: increment counter value
+        cnt <= (cnt + 1);   // inc: increment counter value
     end
     else begin
-        cnt_new <= cnt;     // any other case: state is kept
-    end
-
-    cnt <= cnt_new;
-    
+        cnt <= cnt;         // any other case: state is kept
+    end    
 end
 
 endmodule

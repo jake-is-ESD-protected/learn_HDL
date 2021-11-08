@@ -8,147 +8,147 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a03/seq/sim
+dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a03/seq/sim
 vdreg
-Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1636037114
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1636375417
 !i10b 1
-!s100 H[4;:>`STkJ9XgD3QhfFN3
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I<[FQLg`3XFJ4jLSg5P4g:3
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s100 [`gdMHD`V4BD=eB27oIHc0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>_Ak>3h8oSP>Pe<i_;Uz42
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-R0
-w1636026748
+Z4 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a03/seq/sim
+w1636373492
 8../src/dreg.sv
 F../src/dreg.sv
-!i122 102
-L0 11 31
+!i122 166
+L0 11 29
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1636037113.000000
+!s108 1636375416.000000
 !s107 ../src/dreg.sv|
 !s90 -reportprogress|300|../src/dreg.sv|
 !i113 1
 Z6 tCvgOpt 0
 vpcount
-R1
-Z7 !s110 1636037221
-!i10b 1
-!s100 =aI1GjVE21cb3?9_GOFAU1
-R3
-IGhWlbz5T1=h[XgB_gU6h[3
-R4
-S1
 R0
-w1636027461
+!s110 1636375574
+!i10b 1
+!s100 >f3UCW]VF`ENnX5f416J?2
+R2
+IGIRVmJF4EQD`QUfR@Adc10
+R3
+S1
+R4
+w1636373766
 8../src/pcount.sv
 F../src/pcount.sv
-!i122 104
-L0 11 36
+!i122 170
+L0 11 33
 R5
 r1
 !s85 0
 31
-Z8 !s108 1636037221.000000
+!s108 1636375573.000000
 !s107 ../src/pcount.sv|
 !s90 -reportprogress|300|../src/pcount.sv|
 !i113 1
 R6
 vram16k_verilog
-R1
-!s110 1636037302
+R0
+!s110 1636375626
 !i10b 1
 !s100 AgHlgGjC1Ja^48:83OLLA1
-R3
+R2
 I]IjYDUb]z2I>Wf_CRVnVJ3
-R4
+R3
 S1
-R0
+R4
 w1635976310
 8../src/ram16k_verilog.sv
 F../src/ram16k_verilog.sv
-!i122 106
+!i122 172
 L0 9 26
 R5
 r1
 !s85 0
 31
-!s108 1636037302.000000
+!s108 1636375625.000000
 !s107 ../src/ram16k_verilog.sv|
 !s90 -reportprogress|300|../src/ram16k_verilog.sv|
 !i113 1
 R6
 vtb_dreg
-R1
-R2
-!i10b 1
-!s100 h;k<QGIJe6_KoKPoBWlXG2
-R3
-I]W01`>YY99^]6OEWfU98i3
-R4
-S1
 R0
-w1636028489
+R1
+!i10b 1
+!s100 NUaBf0z?G`XSEmXJ^^7A^0
+R2
+IjU1YGFaD4KmF@]cD1hK9m0
+R3
+S1
+R4
+w1636374607
 8tb_dreg.sv
 Ftb_dreg.sv
-!i122 103
-L0 11 89
+!i122 167
+L0 11 106
 R5
 r1
 !s85 0
 31
-!s108 1636037114.000000
+!s108 1636375417.000000
 !s107 tb_dreg.sv|
 !s90 -reportprogress|300|tb_dreg.sv|
 !i113 1
 R6
 vtb_pcount
-R1
-R7
-!i10b 1
-!s100 4=D[]TI@PIB[I`Zo^kPlG0
-R3
-IdcHM?GEK:MR19E8I[5D4S1
-R4
-S1
 R0
-w1636029056
+!s110 1636375575
+!i10b 1
+!s100 7QK1m09;YjnWUDXHfLT^E1
+R2
+IZFa_PN_2QS8V0fQJNB>gZ1
+R3
+S1
+R4
+w1636375567
 8tb_pcount.sv
 Ftb_pcount.sv
-!i122 105
-L0 11 77
+!i122 171
+L0 11 83
 R5
 r1
 !s85 0
 31
-R8
+!s108 1636375574.000000
 !s107 tb_pcount.sv|
 !s90 -reportprogress|300|tb_pcount.sv|
 !i113 1
 R6
 vtb_ram16k_verilog
-R1
-!s110 1636037303
-!i10b 1
-!s100 9:g]Lj:Xb]nhj9QZ;cmI00
-R3
-Imz6Cj0D8fhU[gOac]C@;B0
-R4
-S1
 R0
-w1636035376
+!s110 1636375627
+!i10b 1
+!s100 RL`oK18MNJFQJki?YSz`C3
+R2
+I;Pcc8aWF=jZ[8?BhKN``>3
+R3
+S1
+R4
+w1636375135
 8tb_ram16k_verilog.sv
 Ftb_ram16k_verilog.sv
-!i122 107
-L0 11 75
+!i122 173
+L0 11 81
 R5
 r1
 !s85 0
 31
-!s108 1636037303.000000
+!s108 1636375626.000000
 !s107 tb_ram16k_verilog.sv|
 !s90 -reportprogress|300|tb_ram16k_verilog.sv|
 !i113 1
