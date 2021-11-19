@@ -9,7 +9,7 @@ Version: v0, 13.05.2019
 module ram16k_verilog
 (
     // same interface as the generated RAM IP!
-    input logic aclr,
+    // input logic aclr,
     input logic [13:0] address,
     input logic clock,
     input logic [15:0] data,
