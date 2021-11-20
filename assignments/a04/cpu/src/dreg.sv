@@ -29,7 +29,7 @@ always_ff @( negedge rst_n or posedge clk50m ) begin
         q <= '0;        // reset: set value to 0
     end
     else if(load) begin
-        q <= d;         // load: store input in helper-var
+        q <= d;         // load: store input
     end
     else begin
         q <= q;         // any other case: state is kept

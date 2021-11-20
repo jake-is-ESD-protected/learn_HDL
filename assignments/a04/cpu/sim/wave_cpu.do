@@ -2,12 +2,13 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /tb_cpu/clk50m
 add wave -noupdate /tb_cpu/instr
+add wave -noupdate /tb_cpu/inM
 add wave -noupdate /tb_cpu/writeM
 add wave -noupdate /tb_cpu/outM
 add wave -noupdate /tb_cpu/addressM
 add wave -noupdate /tb_cpu/pc
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {100469 ps} 0}
+WaveRestoreCursors {{Cursor 1} {68799 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100

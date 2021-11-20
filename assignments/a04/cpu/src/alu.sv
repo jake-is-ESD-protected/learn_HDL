@@ -42,7 +42,7 @@ always_comb begin
     // setting x
     x_temp = x;
     if(zx) begin
-        x_temp = 0;
+        x_temp = '0;
     end
     if(nx) begin
         x_temp = ~x_temp;
@@ -51,7 +51,7 @@ always_comb begin
     // setting y
     y_temp = y;
     if(zy) begin
-        y_temp = 0;
+        y_temp = '0;
     end
     if(ny) begin
         y_temp = ~y_temp;

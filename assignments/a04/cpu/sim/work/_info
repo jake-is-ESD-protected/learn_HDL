@@ -9,51 +9,219 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/sim
-vinstr_demux
+valu
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1636916663
+Z1 !s110 1637413099
 !i10b 1
-!s100 TEdm7DhLSzIg4HaJ4GYi73
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IaeNYADhnjL7ALT84Zj:Bm1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 eKQDoCn;zo]f>W`[gWG2O1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IomHMMQS;=V[EX9T[bceJe0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z3 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/sim
-w1636732234
-8../src/instr_demux.sv
-F../src/instr_demux.sv
-!i122 46
-L0 11 66
-Z4 OV;L;2020.1;71
+Z4 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/cpu/sim
+w1637409999
+8../src/alu.sv
+F../src/alu.sv
+!i122 302
+L0 15 72
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1636916663.000000
+Z6 !s108 1637413099.000000
+!s107 ../src/alu.sv|
+!s90 -reportprogress|300|../src/alu.sv|
+!i113 1
+Z7 tCvgOpt 0
+vcpu
+R0
+!s110 1637413098
+!i10b 1
+!s100 kX`ZT:cFAz350C[6IEiFN3
+R2
+I@Zhl6UYJ^b3S>leJ6Ti3Y2
+R3
+S1
+R4
+w1637406756
+8../src/cpu.sv
+F../src/cpu.sv
+!i122 301
+L0 11 146
+R5
+r1
+!s85 0
+31
+!s108 1637413098.000000
+!s107 ../src/cpu.sv|
+!s90 -reportprogress|300|../src/cpu.sv|
+!i113 1
+R7
+vdreg
+R0
+R1
+!i10b 1
+!s100 [`gdMHD`V4BD=eB27oIHc0
+R2
+I>_Ak>3h8oSP>Pe<i_;Uz42
+R3
+S1
+R4
+w1637407987
+8../src/dreg.sv
+F../src/dreg.sv
+!i122 303
+L0 11 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/dreg.sv|
+!s90 -reportprogress|300|../src/dreg.sv|
+!i113 1
+R7
+vinstr_demux
+R0
+Z8 !s110 1637413100
+!i10b 1
+!s100 TEdm7DhLSzIg4HaJ4GYi73
+R2
+IaeNYADhnjL7ALT84Zj:Bm1
+R3
+S1
+R4
+w1637402637
+8../src/instr_demux.sv
+F../src/instr_demux.sv
+!i122 304
+L0 11 66
+R5
+r1
+!s85 0
+31
+Z9 !s108 1637413100.000000
 !s107 ../src/instr_demux.sv|
 !s90 -reportprogress|300|../src/instr_demux.sv|
 !i113 1
-Z6 tCvgOpt 0
+R7
+vjmp_ctrl
+R0
+R8
+!i10b 1
+!s100 B1dOCcnaTK4AD8XB]5SVC0
+R2
+I]a`boQM@Jdb[;I]dR7IVm3
+R3
+S1
+R4
+w1637405979
+8../src/jmp_ctrl.sv
+F../src/jmp_ctrl.sv
+!i122 305
+L0 11 85
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../src/jmp_ctrl.sv|
+!s90 -reportprogress|300|../src/jmp_ctrl.sv|
+!i113 1
+R7
+vpcount
+R0
+Z10 !s110 1637413101
+!i10b 1
+!s100 d2EV2TokdaIOS^[aNgg3m3
+R2
+IJ1Y]zFPVBWCU6SS1LT;Re0
+R3
+S1
+R4
+w1637358266
+8../src/pcount.sv
+F../src/pcount.sv
+!i122 306
+L0 11 33
+R5
+r1
+!s85 0
+31
+Z11 !s108 1637413101.000000
+!s107 ../src/pcount.sv|
+!s90 -reportprogress|300|../src/pcount.sv|
+!i113 1
+R7
+vram16k_verilog
+R0
+!s110 1637235362
+!i10b 1
+!s100 A^1O6i`9GbI4^R^==T]2n3
+R2
+I55PlcC:Da=F8Mh6V@7:gk3
+R3
+S1
+dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/cpu/sim
+w1637226216
+8../src/ram16k_verilog.sv
+F../src/ram16k_verilog.sv
+!i122 147
+L0 9 26
+R5
+r1
+!s85 0
+31
+!s108 1637235362.000000
+!s107 ../src/ram16k_verilog.sv|
+!s90 -reportprogress|300|../src/ram16k_verilog.sv|
+!i113 1
+R7
+vtb_cpu
+R0
+R10
+!i10b 1
+!s100 SL0HgzE0SBTbiDBXJ1z2`2
+R2
+ICLRonIO=fkO@8zJ4B@`hC1
+R3
+S1
+R4
+w1637413095
+8tb_cpu.sv
+Ftb_cpu.sv
+!i122 307
+L0 11 110
+R5
+r1
+!s85 0
+31
+R11
+!s107 tb_cpu.sv|
+!s90 -reportprogress|300|tb_cpu.sv|
+!i113 1
+R7
 vtb_instr_demux
 R0
 !s110 1636916664
 !i10b 1
 !s100 FNe7>BCl3Q4;ZC<NU1`?60
-R1
-I^Z18lA;ILo@0d`Ck<IS[C2
 R2
-S1
+I^Z18lA;ILo@0d`Ck<IS[C2
 R3
+S1
+dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/sim
 w1636916656
 8tb_instr_demux.sv
 Ftb_instr_demux.sv
 !i122 47
 L0 11 240
-R4
+R5
 r1
 !s85 0
 31
-R5
+!s108 1636916663.000000
 !s107 tb_instr_demux.sv|
 !s90 -reportprogress|300|tb_instr_demux.sv|
 !i113 1
-R6
+R7

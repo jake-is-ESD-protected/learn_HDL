@@ -10,7 +10,7 @@ version:            V1.0
 
 module pcount
 #(
-    parameter W  = 15
+    parameter W  = 14
 )
 (
     input logic rst_n,          // reset
