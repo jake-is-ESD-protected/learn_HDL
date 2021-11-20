@@ -11,7 +11,7 @@ cModel Technology
 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/sim
 valu
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1637413099
+Z1 !s110 1637416275
 !i10b 1
 !s100 eKQDoCn;zo]f>W`[gWG2O1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,20 +22,20 @@ Z4 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a04/cpu/sim
 w1637409999
 8../src/alu.sv
 F../src/alu.sv
-!i122 302
+!i122 313
 L0 15 72
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1637413099.000000
+Z6 !s108 1637416275.000000
 !s107 ../src/alu.sv|
 !s90 -reportprogress|300|../src/alu.sv|
 !i113 1
 Z7 tCvgOpt 0
 vcpu
 R0
-!s110 1637413098
+R1
 !i10b 1
 !s100 kX`ZT:cFAz350C[6IEiFN3
 R2
@@ -43,23 +43,23 @@ I@Zhl6UYJ^b3S>leJ6Ti3Y2
 R3
 S1
 R4
-w1637406756
+w1637415910
 8../src/cpu.sv
 F../src/cpu.sv
-!i122 301
+!i122 312
 L0 11 146
 R5
 r1
 !s85 0
 31
-!s108 1637413098.000000
+!s108 1637416274.000000
 !s107 ../src/cpu.sv|
 !s90 -reportprogress|300|../src/cpu.sv|
 !i113 1
 R7
 vdreg
 R0
-R1
+Z8 !s110 1637416276
 !i10b 1
 !s100 [`gdMHD`V4BD=eB27oIHc0
 R2
@@ -70,7 +70,7 @@ R4
 w1637407987
 8../src/dreg.sv
 F../src/dreg.sv
-!i122 303
+!i122 314
 L0 11 29
 R5
 r1
@@ -83,7 +83,7 @@ R6
 R7
 vinstr_demux
 R0
-Z8 !s110 1637413100
+R8
 !i10b 1
 !s100 TEdm7DhLSzIg4HaJ4GYi73
 R2
@@ -94,20 +94,20 @@ R4
 w1637402637
 8../src/instr_demux.sv
 F../src/instr_demux.sv
-!i122 304
+!i122 315
 L0 11 66
 R5
 r1
 !s85 0
 31
-Z9 !s108 1637413100.000000
+Z9 !s108 1637416276.000000
 !s107 ../src/instr_demux.sv|
 !s90 -reportprogress|300|../src/instr_demux.sv|
 !i113 1
 R7
 vjmp_ctrl
 R0
-R8
+Z10 !s110 1637416277
 !i10b 1
 !s100 B1dOCcnaTK4AD8XB]5SVC0
 R2
@@ -115,10 +115,10 @@ I]a`boQM@Jdb[;I]dR7IVm3
 R3
 S1
 R4
-w1637405979
+w1637416271
 8../src/jmp_ctrl.sv
 F../src/jmp_ctrl.sv
-!i122 305
+!i122 316
 L0 11 85
 R5
 r1
@@ -131,7 +131,7 @@ R9
 R7
 vpcount
 R0
-Z10 !s110 1637413101
+R10
 !i10b 1
 !s100 d2EV2TokdaIOS^[aNgg3m3
 R2
@@ -142,13 +142,13 @@ R4
 w1637358266
 8../src/pcount.sv
 F../src/pcount.sv
-!i122 306
+!i122 317
 L0 11 33
 R5
 r1
 !s85 0
 31
-Z11 !s108 1637413101.000000
+Z11 !s108 1637416277.000000
 !s107 ../src/pcount.sv|
 !s90 -reportprogress|300|../src/pcount.sv|
 !i113 1
@@ -179,7 +179,7 @@ r1
 R7
 vtb_cpu
 R0
-R10
+!s110 1637416278
 !i10b 1
 !s100 SL0HgzE0SBTbiDBXJ1z2`2
 R2
@@ -187,10 +187,10 @@ ICLRonIO=fkO@8zJ4B@`hC1
 R3
 S1
 R4
-w1637413095
+w1637415985
 8tb_cpu.sv
 Ftb_cpu.sv
-!i122 307
+!i122 318
 L0 11 110
 R5
 r1
