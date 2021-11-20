@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/examples/ex05_HACK/sim
+vrom32k
+!s110 1637320949
+!i10b 1
+!s100 YiWXBY7PYOWQ6?HE;lX:D1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`=[<X[F8bDnV@1>M^2=In2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1637316536
+8../ip/rom32k.v
+F../ip/rom32k.v
+!i122 9
+L0 40 61
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1637320949.000000
+!s107 ../ip/rom32k.v|
+!s90 -reportprogress|300|../ip/rom32k.v|
+!i113 1
+Z5 tCvgOpt 0
+vtb_rom32k
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1637320950
+!i10b 1
+!s100 Edi7HWbzC[PEl[MHF6?aU0
+R1
+IIF7Ta3gaokBfAN_?BYKQ60
+R2
+S1
+R0
+w1637320946
+8tb_rom32k.sv
+Ftb_rom32k.sv
+!i122 10
+L0 13 32
+R3
+r1
+!s85 0
+31
+R4
+!s107 tb_rom32k.sv|
+!s90 -reportprogress|300|tb_rom32k.sv|
+!i113 1
+R5
