@@ -1,4 +1,4 @@
-# Assignment 03
+# Assignment 04
 *Assembling the HACK-computer's CPU*
 
 **This document and code are also available on my [GitHub repo](https://github.com/jake-is-ESD-protected/learn_HDL/tree/master/assignments/a04) and made with the VScode "md to pdf" extension**
