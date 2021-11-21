@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/assignments/a05/uart_rx/sim
+vtb_uart_rx
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1637455485
+!i10b 1
+!s100 3:7R=7z0^OCW>GjGn?[bD1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=7g`=;9[?bJ0jkGV3H8]S2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1637455480
+8tb_uart_rx.sv
+Ftb_uart_rx.sv
+!i122 140
+L0 13 81
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1637455484.000000
+!s107 tb_uart_rx.sv|
+!s90 -reportprogress|300|tb_uart_rx.sv|
+!i113 1
+Z6 tCvgOpt 0
+vuart_rx
+R1
+Z7 !s110 1637455484
+!i10b 1
+!s100 i9c4j8O_GfCbH]O78Bc_m1
+R2
+I]>ON79AP=JNmSmN6M32ia1
+R3
+S1
+R0
+w1637455463
+8../src/uart_rx.sv
+F../src/uart_rx.sv
+!i122 138
+L0 11 167
+R4
+r1
+!s85 0
+31
+!s108 1637455483.000000
+!s107 ../src/uart_rx.sv|
+!s90 -reportprogress|300|../src/uart_rx.sv|
+!i113 1
+R6
+vuart_tx
+R1
+R7
+!i10b 1
+!s100 8?o6zHX>zckJ9@7=:J@l>1
+R2
+IWaB=@@Yo7nc=E3=cmi8H`0
+R3
+S1
+R0
+w1637450762
+8../src/uart_tx.sv
+F../src/uart_tx.sv
+!i122 139
+L0 11 129
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../src/uart_tx.sv|
+!s90 -reportprogress|300|../src/uart_tx.sv|
+!i113 1
+R6
