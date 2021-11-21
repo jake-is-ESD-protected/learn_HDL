@@ -36,7 +36,7 @@ logic [2:0]bitcnt;
 logic bitcnt_inc;
 logic bitcnt_init;
 logic load_ready;
-logic load_error;
+logic load_error = `LOW;
 enum logic [1:0] {IDLE, START, DATA, STOP} state, state_next;
 
 // driver for FSM
@@ -125,13 +125,13 @@ always_comb begin
             load_ready = `HIGH;
             if(~rx) begin
                 state_next = START;
+                load_error = `LOW;
                 widthcnt_load = `HIGH;
             end
         end
 
         START: begin
             load_ready = `LOW;
-            load_error = `LOW;
             if(widthcnt_zero) begin
                 state_next = DATA;
                 widthcnt_load = `HIGH;

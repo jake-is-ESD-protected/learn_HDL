@@ -20,7 +20,7 @@ vsim tb_uart_rx
 
 # log all data
 log -r *
-do wave_rx.do
+do wave.do
 
 # run simulation
 run -all
