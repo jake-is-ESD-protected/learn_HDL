@@ -9,36 +9,154 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/jakob/OneDrive - FH Vorarlberg/5. Semester/HDL/examples/ex05_HACK/sim
+vdata_mem
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1638531443
+!i10b 1
+!s100 2Aic2z0AeZ;LYJ2]C>PlQ0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iig2f:77WlG_bHGAT]R5U=2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/J/OneDrive - FH Vorarlberg/5. Semester/HDL/examples/ex05_HACK/sim
+w1638530666
+8../src/data_mem.sv
+F../src/data_mem.sv
+!i122 47
+L0 11 125
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1638531443.000000
+!s107 ../src/data_mem.sv|
+!s90 -reportprogress|300|../src/data_mem.sv|
+!i113 1
+Z7 tCvgOpt 0
+vmem_slice
+R1
+Z8 !s110 1638531444
+!i10b 1
+!s100 iANQnoU]?T]WOXhk3nO7l2
+R2
+IVY>cToTcH4[iC]7kf[82i3
+R3
+S1
+R4
+w1638526168
+8../src/mem_slice.sv
+F../src/mem_slice.sv
+!i122 49
+L0 11 25
+R5
+r1
+!s85 0
+31
+Z9 !s108 1638531444.000000
+!s107 ../src/mem_slice.sv|
+!s90 -reportprogress|300|../src/mem_slice.sv|
+!i113 1
+R7
+vram16k
+R8
+!i10b 1
+!s100 9jMzMaSK6haG_3<PPnad_0
+R2
+IPl_aC1Zbm>kAGzA_I2a510
+R3
+R4
+w1638523585
+8../ip/ram16k.v
+F../ip/ram16k.v
+!i122 48
+L0 40 65
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../ip/ram16k.v|
+!s90 -reportprogress|300|../ip/ram16k.v|
+!i113 1
+R7
 vrom32k
 !s110 1637320949
 !i10b 1
 !s100 YiWXBY7PYOWQ6?HE;lX:D1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R2
 I`=[<X[F8bDnV@1>M^2=In2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R3
 R0
 w1637316536
 8../ip/rom32k.v
 F../ip/rom32k.v
 !i122 9
 L0 40 61
-Z3 OV;L;2020.1;71
+R5
 r1
 !s85 0
 31
-Z4 !s108 1637320949.000000
+Z10 !s108 1637320949.000000
 !s107 ../ip/rom32k.v|
 !s90 -reportprogress|300|../ip/rom32k.v|
 !i113 1
-Z5 tCvgOpt 0
+R7
+vtb_data_mem
+R1
+R8
+!i10b 1
+!s100 GR2eKL8O3`3TK?:n==0UJ1
+R2
+IR<c>jozD[W=bi^fZ3JE<11
+R3
+S1
+R4
+w1638531340
+8tb_data_mem.sv
+Ftb_data_mem.sv
+!i122 50
+L0 14 108
+R5
+r1
+!s85 0
+31
+R9
+!s107 tb_data_mem.sv|
+!s90 -reportprogress|300|tb_data_mem.sv|
+!i113 1
+R7
+vtb_mem_slice
+R1
+!s110 1638526953
+!i10b 1
+!s100 hCR<?E9Q1fM5HhQNEQUPU0
+R2
+I`_Q0Ca2SD1MjUXB7P6UNa1
+R3
+S1
+R4
+w1638526948
+8tb_mem_slice.sv
+Ftb_mem_slice.sv
+!i122 24
+L0 11 76
+R5
+r1
+!s85 0
+31
+!s108 1638526952.000000
+!s107 tb_mem_slice.sv|
+!s90 -reportprogress|300|tb_mem_slice.sv|
+!i113 1
+R7
 vtb_rom32k
-DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R1
 !s110 1637320950
 !i10b 1
 !s100 Edi7HWbzC[PEl[MHF6?aU0
-R1
-IIF7Ta3gaokBfAN_?BYKQ60
 R2
+IIF7Ta3gaokBfAN_?BYKQ60
+R3
 S1
 R0
 w1637320946
@@ -46,12 +164,12 @@ w1637320946
 Ftb_rom32k.sv
 !i122 10
 L0 13 32
-R3
+R5
 r1
 !s85 0
 31
-R4
+R10
 !s107 tb_rom32k.sv|
 !s90 -reportprogress|300|tb_rom32k.sv|
 !i113 1
-R5
+R7

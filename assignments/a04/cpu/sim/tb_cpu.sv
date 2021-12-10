@@ -106,6 +106,15 @@ initial begin
         error_cnt += 1;
     end
 
+    $display("Runner:");
+    @(negedge clk50m)
+    instr = 16'b1110011111010000;
+    @(negedge clk50m)
+    $display("outM is %d", outM);
+
+    #300ns;
+
+
     run_sim = 1'b0;
 
     if(error_cnt > 0) begin

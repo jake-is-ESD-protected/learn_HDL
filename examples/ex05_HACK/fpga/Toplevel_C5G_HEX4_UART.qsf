@@ -179,3 +179,4 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to UART_RX
 
 
 set_global_assignment -name QIP_FILE ../ip/rom32k.qip
+set_global_assignment -name QIP_FILE ../ip/ram16k.qip
